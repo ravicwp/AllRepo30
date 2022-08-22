@@ -28,7 +28,7 @@ resource "azurerm_virtual_machine" "my-linux-vm" {
   }
 }
 
-resource "azurerm_key_vault" "example" {
+resource "azurerm_key_vault" "yogesh2" {
   name                        = "des-example-keyvault"
   location                    = azurerm_resource_group.example.location
   resource_group_name         = azurerm_resource_group.example.name
